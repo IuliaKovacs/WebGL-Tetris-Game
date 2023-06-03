@@ -1,0 +1,27 @@
+{
+  "name": "Tetris Game WebGL",
+  "version": "1.0.0",
+  "description": "Tetris!",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --progress --mode development --host 0.0.0.0",
+    "build": "webpack -p --progress --mode production",
+    "lint": "standard",
+    "test": "standard && echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "glslify-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "markdown-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "raw-loader": "^1.0.0",
+    "standard": "^12.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
